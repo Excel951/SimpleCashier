@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Simple Cashier"-->
+<!--        android:textAlignment="center"-->
+<!--        android:paddingVertical="5dp"-->
+<!--        android:background="@color/purple_200"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="75px"/>-->
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="0"
+        android:padding="5dp"
+        android:textSize="12pt"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5px"
+        android:padding="5px">
+
+        <Button
+            android:id="@+id/esTehBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="25px"
+            android:padding="20px"
+            android:text="Es Teh" />
+
+        <Button
+            android:id="@+id/esJerukBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="25px"
+            android:padding="20px"
+            android:text="Es Jeruk" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5px"
+        android:padding="5px">
+
+        <Button
+            android:id="@+id/nasiPecelBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="25px"
+            android:padding="20px"
+            android:text="Nasi Pecel" />
+
+        <Button
+            android:id="@+id/nasiRawonBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="25px"
+            android:padding="20px"
+            android:text="Nasi Rawon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5px"
+        android:padding="5px">
+
+        <Button
+            android:id="@+id/byrBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="25px"
+            android:padding="20px"
+            android:text="Bayar" />
+
+        <Button
+            android:id="@+id/btlBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="25px"
+            android:padding="20px"
+            android:text="Batal" />
+
+    </LinearLayout>
+
+</LinearLayout>
