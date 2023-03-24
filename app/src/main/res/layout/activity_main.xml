@@ -7,21 +7,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Simple Cashier"-->
-<!--        android:textAlignment="center"-->
-<!--        android:paddingVertical="5dp"-->
-<!--        android:background="@color/purple_200"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:textSize="75px"/>-->
-
-    <TextView
+    <EditText
         android:id="@+id/hasil"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="0"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="10dp"
         android:padding="5dp"
         android:textSize="12pt"
         android:textAlignment="center"
@@ -102,5 +94,22 @@
             android:text="Batal" />
 
     </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/myCoordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        </LinearLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </LinearLayout>
