@@ -12,6 +12,9 @@
         android:theme="@style/Theme.SimpleCashier"
         tools:targetApi="31">
         <activity
+            android:name=".nota"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

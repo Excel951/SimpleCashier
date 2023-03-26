@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Simple Cashier</string>
+    <string name="judul_nota">KANTIN KEJUJURAN</string>
+    <string name="nota_penjualan">NOTA PENJUALAN</string>
 </resources>
