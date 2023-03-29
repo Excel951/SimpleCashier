@@ -1,0 +1,5 @@
+com.example.simplecashier.test.app-androidTest-0 E:\Deo\Semester4\Project Android\SimpleCashier\app\build\generated\res\resValues\androidTest\debug
+com.example.simplecashier.test.app-androidTest-1 E:\Deo\Semester4\Project Android\SimpleCashier\app\build\generated\res\rs\androidTest\debug
+com.example.simplecashier.test.app-mergeDebugAndroidTestResources-2 E:\Deo\Semester4\Project Android\SimpleCashier\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.simplecashier.test.app-mergeDebugAndroidTestResources-3 E:\Deo\Semester4\Project Android\SimpleCashier\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.simplecashier.test.app-merged_res-4 E:\Deo\Semester4\Project Android\SimpleCashier\app\build\intermediates\merged_res\debugAndroidTest

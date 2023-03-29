@@ -13,7 +13,7 @@ import com.google.android.material.snackbar.Snackbar;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private EditText hasilView;
-    private Button getEsTeh, getEsJeruk, getNasiPecel, getNasiRawon, getBayar, getBatal;
+    private Button getEsTeh, getEsJeruk, getNasiPecel, getNasiRawon, getBayar, getBatal, getAbout;
     private int hasil = 0, esTehvalue = 3000, esJerukvalue = 4000, nasiPecelvalue = 10000, nasiRawonvalue = 12000;
 
     private Integer jmlEsTeh = 0, jmlEsJeruk = 0, jmlPecel = 0, jmlRawon = 0;
@@ -42,11 +42,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         hasilView.setEnabled(false);
         mainActivity = (View) findViewById(R.id.myCoordinatorLayout);
 
+        getAbout=(Button) findViewById(R.id.btnAboutme);
+        getAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent about = new Intent(MainActivity.this, aboutme.class);
+                startActivity(about);
+            }
+        });
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+//            case R.id.btnAboutme:
+//                Intent about = new Intent(MainActivity.this, aboutme.class);
+//                startActivity(about);
+//                break;
+
             case R.id.byrBtn: // ketika tombol bayar diklik
                 if (hasil != 0) {
                     // bungkus data yang akan dikirim dengan menggunakan array of string
@@ -136,6 +149,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 hasilView.setText(String.valueOf(hasil));
                 getNasiRawon.setText("Nasi Rawon (" + jmlRawon + ")");
                 break;
+
         }
     }
 }

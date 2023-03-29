@@ -4,7 +4,7 @@
             "outputFile": "com.example.simplecashier.app-mergeDebugResources-23:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IDe\\.gradle\\caches\\transforms-3\\0212d0c0c0b99c5d00c15a82a811f4d1\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Invinity\\.gradle\\caches\\transforms-3\\0212d0c0c0b99c5d00c15a82a811f4d1\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\IDe\\.gradle\\caches\\transforms-3\\116430c231f652ec6cb468c7433d967b\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Invinity\\.gradle\\caches\\transforms-3\\116430c231f652ec6cb468c7433d967b\\transformed\\appcompat-1.4.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

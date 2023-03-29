@@ -21,6 +21,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.SimpleCashier" >
         <activity
+            android:name="com.example.simplecashier.aboutme"
+            android:exported="false" />
+        <activity
             android:name="com.example.simplecashier.nota"
             android:exported="false" />
         <activity

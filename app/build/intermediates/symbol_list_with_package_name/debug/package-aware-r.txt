@@ -2609,6 +2609,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btlBtn
+id btnAboutme
 id buttonPanel
 id byrBtn
 id cache_measures
@@ -2686,6 +2687,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id email
 id end
 id endToStart
 id enterAlways
@@ -2852,6 +2854,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phone
 id pin
 id position
 id postLayout
@@ -3086,6 +3089,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_aboutme
 layout activity_main
 layout activity_nota
 layout custom_dialog

@@ -14,7 +14,9 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable rectanglebg
 id btlBtn
+id btnAboutme
 id byrBtn
+id email
 id esJerukBtn
 id esTehBtn
 id hasil
@@ -27,7 +29,9 @@ id myCoordinatorLayout
 id myCoordinatorLayoutNota
 id nasiPecelBtn
 id nasiRawonBtn
+id phone
 id tanggalNota
+layout activity_aboutme
 layout activity_main
 layout activity_nota
 mipmap ic_launcher
